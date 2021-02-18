@@ -1,0 +1,27 @@
+body {
+    height: 100%;
+    width: 50%;
+    margin: auto;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: greenyellow;
+    justify-content: center;
+    align-items: center;
+}
+
+#dicevisual {
+    background-color: red;
+}
+
+#dice {
+    display: grid;
+    flex-direction: space-evenly;
+    background-color: rgb(116, 116, 255);
+}
+
+#other {
+    background-color: rgb(4, 255, 4);
+}
