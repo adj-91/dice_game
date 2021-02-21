@@ -10,6 +10,11 @@ body {
     background-color: greenyellow;
     justify-content: center;
     align-items: center;
+    margin-top: 8vh;
+}
+
+h1 {
+    color: rgb(197, 191, 252);
 }
 
 #dicevisual {
@@ -17,11 +22,11 @@ body {
 }
 
 #dice {
-    display: grid;
-    flex-direction: space-evenly;
+    text-align: center;
     background-color: rgb(116, 116, 255);
 }
 
-#other {
-    background-color: rgb(4, 255, 4);
+#diceImg {
+    border-radius: 50px;
+    padding: 10px;
 }
