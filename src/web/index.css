@@ -2,6 +2,7 @@ body {
     height: 100%;
     width: 50%;
     margin: auto;
+    max-width: 600px;
 }
 
 .main {
@@ -11,22 +12,65 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 8vh;
+
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.rules {
+    background-color: cyan;
+    border-style: solid;
+    border-radius: 5px;
+    margin-top: 1vh;
+}
+
+#ruleText {
+    margin: 10px;
 }
 
 h1 {
-    color: rgb(197, 191, 252);
+    text-decoration: underline;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
 }
 
 #dicevisual {
     background-color: red;
+    border-radius: 20%;
+    border-color: white;
+    border-style: solid;
 }
 
 #dice {
     text-align: center;
-    background-color: rgb(116, 116, 255);
+    /* background-color: rgb(116, 116, 255); */
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 2px;
+    
+    width: 20vw;
+    margin: 2vh;
+    max-width: 200px;
+
+    background-color: white;
 }
 
 #diceImg {
     border-radius: 50px;
     padding: 10px;
+    background-color: black;
+}
+
+#button {
+    background-color: black;
+    color: white;
+    border-color: wheat;
+    padding: 6px;
+
+    margin-bottom: 1vh;
 }
