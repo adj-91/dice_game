@@ -12,7 +12,7 @@ const scoreHandler = (playerRoll) => {
 }
 
 const dieHandler = (playerRoll) => {
-    diceImg.src=`../img/dice${playerRoll}.png`;
+    diceImg.src=`./img/dice${playerRoll}.png`;
 }
 
 document.getElementById('button').addEventListener("click", () => {
